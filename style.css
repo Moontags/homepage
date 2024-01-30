@@ -10,11 +10,11 @@
     height:100vh;
     background-image: url(lighthouse-2372461_640.jpg);
     background-size: cover;
-    overflow: hidden;
+   background-position: top;
 }
 
  .navbar {
-    width: 85%;
+    width: 80%;
     margin: auto;
     padding: 2rem 0;
     display: flex;
@@ -31,17 +31,22 @@
     display: inline-block;
     margin: 0 1rem;
     position: relative;
+    
 }
 
 .navbar ul li a {
+   
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
+    letter-spacing: 1px;
     
 }
 
 .navbar ul li a:hover {
-    background-color: rgb(8, 8, 246);
+    background-color: #009688;
+    padding: 2.4px;
+   
 }
 
 
@@ -59,11 +64,11 @@
 
 .navbar ul li:hover::after {
     width: 100%;
-    background-color: rgb(154, 248, 168);
+    background-color: #009688;
 }
 
 .logo {
-    cursor: pointer;
+    width: 100px;
 }
 
 .content {
@@ -72,7 +77,8 @@
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: #fff;
+    color: #d7f9f5;
+    text-shadow: 1px 1px 2px black;
 }
 
 .content h1 {
@@ -83,12 +89,13 @@
 
 .content p {
     margin: 20px auto;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 100;
-    line-height: 25px;
+    line-height: 1.5;
     letter-spacing: 1px;
-    color: #fff;
+    color:#fff;
     max-width: 700px;
+    text-shadow: 1px 1px 2px black;
 }
 
 button {
@@ -98,9 +105,11 @@ button {
     margin: 40px 60px;
     border-radius: 25px;
     font-weight: bold;
+    font-size: 20px;
     border: 2px solid #009688;
     background: transparent;
-    color: #000;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
     cursor: pointer;
     position: relative;
     overflow: hidden;
